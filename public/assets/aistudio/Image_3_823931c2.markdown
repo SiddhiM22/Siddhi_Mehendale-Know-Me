@@ -1,0 +1,258 @@
+---
+name: Kinetic Executive
+colors:
+  surface: '#0b1326'
+  surface-dim: '#0b1326'
+  surface-bright: '#31394d'
+  surface-container-lowest: '#060e20'
+  surface-container-low: '#131b2e'
+  surface-container: '#171f33'
+  surface-container-high: '#222a3d'
+  surface-container-highest: '#2d3449'
+  on-surface: '#dae2fd'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dae2fd'
+  inverse-on-surface: '#283044'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#4fdbc8'
+  on-secondary: '#003731'
+  secondary-container: '#04b4a2'
+  on-secondary-container: '#003f38'
+  tertiary: '#7bd0ff'
+  on-tertiary: '#00354a'
+  tertiary-container: '#009bd1'
+  on-tertiary-container: '#002d40'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#71f8e4'
+  secondary-fixed-dim: '#4fdbc8'
+  on-secondary-fixed: '#00201c'
+  on-secondary-fixed-variant: '#005048'
+  tertiary-fixed: '#c4e7ff'
+  tertiary-fixed-dim: '#7bd0ff'
+  on-tertiary-fixed: '#001e2c'
+  on-tertiary-fixed-variant: '#004c69'
+  background: '#0b1326'
+  on-background: '#dae2fd'
+  surface-variant: '#2d3449'
+typography:
+  display-xl:
+    fontFamily: Space Grotesk
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-xl-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 38px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 28px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Geist
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  code-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 15px
+    fontWeight: '500'
+    lineHeight: 22px
+    letterSpacing: -0.01em
+  code-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-caps:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2.5rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system expresses high-caliber engineering leadership, architectural clarity, and forward-looking craft. Targeted directly at technical recruiters, engineering VPs, and founders, the interface avoids generic developer portfolio tropes in favor of an elite, executive-level technical narrative.
+
+The aesthetic fuses modern minimalist structure with deep-space glassmorphism and surgical technical detailing:
+- **Atmosphere:** Deep, luminescent slate foundations that feel dimensional rather than pitch-black.
+- **Precision:** Monospaced data points, structural hairline dividers, and quantified impact metrics balanced against warm, expansive sans-serif typography.
+- **Restraint:** High-contrast accent colors deployed strictly for focal anchors, interaction feedback, and vital telemetry.
+
+## Colors
+
+The palette is engineered around high legibility on pitch and slate backgrounds, maintaining strict WCAG AAA contrast ratios for reading text while reserving luminous spectral tones for focal anchors.
+
+### Core Architecture
+- **Primary (`#6366F1` - Electric Indigo):** Primary calls-to-action, key milestone highlights, and primary active states.
+- **Secondary (`#14B8A6` - Emerald Teal):** Production status badges, verified credentials, and high-impact metric counters.
+- **Tertiary (`#38BDF8` - Cyan Ray):** Interactive code elements, data visualization accents, and tertiary metadata tags.
+- **Neutral Canvas (`#0F172A` - Midnight Slate):** Root background tone, layered downward into `#090D16` for canvas recesses and elevated into `#1E293B` for surface containers.
+
+### Layered Surfaces
+- **Canvas Base:** `#090D16`
+- **Surface Elevation 1 (Card/Container):** `rgba(30, 41, 59, 0.70)` with backdrop blur.
+- **Surface Elevation 2 (Hover/Active Panes):** `rgba(51, 65, 85, 0.55)`
+- **Border Stroke Subtle:** `rgba(148, 163, 184, 0.12)`
+- **Border Stroke Focus:** `rgba(99, 102, 241, 0.40)`
+- **Text High-Emphasis:** `#F8FAFC`
+- **Text Medium-Emphasis:** `#94A3B8`
+- **Text Low-Emphasis / Code Commentary:** `#64748B`
+
+## Typography
+
+The typographic hierarchy distinguishes structural roles through three deliberate type families:
+
+1. **Space Grotesk:** Headlines and numerical impact stats. Its geometric incisions convey technological confidence without looking abrasive.
+2. **Geist:** Primary UI, long-form project case studies, and executive summaries. Clean, neutral, and engineered for dense legibility on high-resolution screens.
+3. **JetBrains Mono:** Tech stacks, metadata, commit logs, performance benchmarks, and micro-labels.
+
+### Micro-Typographic Rules
+- `label-caps` must always be styled with `text-transform: uppercase` to maintain crisp scan-lines in dense recruiter-facing resumes.
+- Quantitative career achievements (e.g., "$4.2M ARR", "-42% Latency") combine Space Grotesk bold numbers with JetBrains Mono unit symbols.
+
+## Layout & Spacing
+
+The layout is anchored to a 12-column responsive fluid grid structured around maximum content readability and rapid scanning.
+
+### Grid & Breakpoints
+- **Desktop (HL
+NŠŠˆX^ÛÛZ[™\ˆÚYLŒÙ[\™YˆLˆÛÛ[[œË
+K\™[X
+Hİ]\œË
+‹\™[X
+Hİ]\ˆX\™Ú[‹‚‹H
+Š•X›]
+ÍHLÎ\
+NŠŠˆ›ZYÛÛ[[œËŒ
+KŒ\™[X
+Hİ]\œËÌœ
+œ™[X
+Hİ]\ˆX\™Ú[‹‚‹H
+Š“[Øš[H
+Í
+NŠŠˆ›ZYÛÛ[[œËMœ
+\™[X
+Hİ]\œËŒ
+KŒ\™[X
+Hİ]\ˆX\™Ú[‹‚‚ˆÈÈÈ™\XØ[š]B‹HÜXÚ[™ÈÚ][ˆÙÚXØ[Ü›İ\È
+K™Ë‹›ÛH]HÈÛÛ\[KÚ\[œÚYHXÚİXÚÊH™[Y\ÈİšXİHÛˆÜXÙK^Ø[™ÜXÙK\ÛX‚‹HØ\™[\›˜[Y[™ÈØØ[\ÈÛÛœÚ\İ[NˆÜXÙK[YÛˆ[Øš[H[™ÜXÙK[ØÛˆ\ÚİÜ‚‹HİXİ\˜[Ø\ÙK\İYH›ØÚÜÈ[™™\İ[YHÚ\\œÈ\ÙHÜXÙK^
+
+H™\XØ[X\™Ú[œÈÈ\İX›\ÚÛX[ˆš\İX[œ™X]Xš[]K‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚•š\İX[Y\˜\˜ÚH]›ÚYÈX]H›ÜÚYİÜË™[Z[™È[œİXYÛˆœ›ÜİYÛ\ÜÛ[ÜœXÈ™Yœ˜Xİ[Û‹ÛÛ›ÛY[XšY[[ÜË[™Z\›[™H›Ü™\œË‚‚ˆÈÈÈ\İXÚÂŒKˆ
+ŠØ[˜\È
+˜\ÙJNŠŠˆ›]ÌLM˜Ü›İ[™XØÙ[X]YÚ]HİXH˜YX[Ü˜YY[X\ÚÈ
+[\ÙH]L	H	K™Ø˜JNKL‹KŒ
+K˜[œÜ\™[Ì	X
+K‚Œ‹ˆ
+Š‘Û\ÜÈY\ˆH
+Y˜][Ø\™ËÙXİ[ÛœÊNŠŠ‚ˆH˜XÚÙÜ›İ[™ˆ™Ø˜JMKŒË‹JXˆH˜XÚÙ›Üš[\ˆ›\ŠLœ
+HØ]\˜]JM	JXˆH›Ü™\ˆ\ÛÛY™Ø˜JMMŒËNŒLŠXˆHÚYİÎˆŒLœ™Ø˜JJXŒËˆ
+Š‘Û\ÜÈY\ˆˆ
+[\˜Xİ]™Hİ™\ˆÈÜİ™\œÊNŠŠ‚ˆH˜XÚÙÜ›İ[™ˆ™Ø˜JÌKNK
+XˆH˜XÚÙ›Üš[\ˆ›\ŠMœ
+XˆH›Ü™\ˆ\ÛÛY™Ø˜JNKL‹KŒÍJXˆHÚYİÎˆLœÌœM™Ø˜JŠKMœLœ™Ø˜JNKL‹KŒMJXˆ
+Š“İ™\›^HÈ˜]Ù\ˆ
+™\İ[YH]ZXÚËUšY]Ë[Ù[[œÜXİ[ÛŠNŠŠ‚ˆH˜XÚÙÜ›İ[™ˆ™Ø˜JMKŒË‹LŠXˆH˜XÚÙ›Üš[\ˆ›\ŠŒ
+XˆH›Ü™\ˆ\ÛÛY™Ø˜JMMŒËNŒŠXˆHÚYİÎˆLLœ™Ø˜J
+X‚ˆÈÈÚ\\Â‚•H\ÚYÛˆ\Ù\È˜[[˜ÙY[Ù\›ˆÙ[ÛY]H
+›İ[™Y™\ÜÎˆ˜
+N‚‹Hİ[™\™[\˜Xİ]™H[[Y[Ë[œ]Ë[™˜YÙ\È[š\š]H˜\Ù[[™H\™[X
+
+H˜Y]\Ë‚‹H›Ú™XİØ\™ËÛÙH™]šY]È›ØÚÜË[™›Ø][™Èİ[[X\H˜[›™\œÈ\ÙH›İ[™Y[Ø
+\™[XÈMœ
+K‚‹H[Ù[ÛÛZ[™\œË\›ÈYÚYÚ[™[Ë[™Y\Ø\ÙK\İYHÜ˜\\œÈ\ÙH›İ[™Y^
+K\™[XÈ
+K‚‹Hİ]\ÈİÈ[™™XÜZ]\ˆXİ[Ûˆ[È\ÙH[Ú\˜İ[\ˆ˜Y]\Ù\È
+NNN\
+K‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\H]Ûˆ
+ÛÛXİÈİÛ›ØYÕŠNŠŠˆ˜XÚÙÜ›İ[™ÍŒÍ‘ŒXÚ][ˆ[›™\ˆÜYÚYÚ›Ü™\ˆ
+™Ø˜JMKMKMKŒŠX
+K^Ñ‘‘‘‘‘˜[ˆÙZ\İYY][K›İ[™Yˆİ™\ˆİ]H\Y\È[ˆ[™YÛÈ[ÈÛİÈ
+›Ş\ÚYİÎˆŒ™Ø˜JNKL‹K
+X
+K‚‹H
+Š”ÙXÛÛ™\H]Ûˆ
+šY]È\˜Ú]Xİ\™HÈÚ]XŠNŠŠˆÛ\ÜÈY\ˆHİ\™˜XÙK^ÑQØ›Ü™\ˆ™Ø˜JMMŒËNŒN
+Xˆİ™\ˆ˜[œÚ][ÛœÈ›Ü™\ˆÈÌÎ‘[™˜XÚÙÜ›İ[™È™Ø˜JLKKKŠX‚‹H
+Š“[Û›ÜÜXÙHXİ[Ûˆ
+ÛÜH[XZ[Ú[Ûš\]
+NŠŠˆ™]œ˜Z[œÈ[Û›ÈLœ›Ü™\ˆ\ÚY™Ø˜JMMŒËNŒÊXİXH[\Y[™Ë‚‚ˆÈÈÈXÚ˜YÙ\È	ˆÚ\Â‹HİXİ\™Y\È[œÙHYÜÈÚ]H\›Ü™\‹‚‹H
+Š•XÚİXÚÈ˜YÙNŠŠˆ˜XÚÙÜ›İ[™™Ø˜JMKŒË‹
+X›Ü™\ˆ™Ø˜JMMŒËNŒMJX^ÎMLĞ›Û™]œ˜Z[œÈ[Û›ØL\‚‹H
+Š’[\XİÈÚÚ[™\šYšYY˜YÙNŠŠˆ˜XÚÙÜ›İ[™™Ø˜JŒNM‹ŒJX›Ü™\ˆ™Ø˜JŒNM‹ŒÊX^ÌMM˜ˆ[˜ÛY\È[ˆ[š[X]Y[Ú[™ÈœX[İ›Üˆİ\œ™[›ÛHˆÜˆ”›ÙXİ[ÛˆÙ\šXÙH‹‚‚ˆÈÈÈØ\™È
+›Ú™Xİ	ˆ^\šY[˜ÙJB‹HÛÛœİXİYÚ]Û\ÜÈY\ˆH˜XÚÚ[™È[™Z\›[™HİXİ\˜[]šY\œÈ™]ÙY[ˆHİ[[X\HXY\‹XÚYÜË[™]X[YšXX›H[\Xİ[]Ë‚‹HØ\™XY\œÈZ\ˆH›Ú™Xİ˜[YH[ˆÜXÙHÜ›İ\ÚÈÚ]H™]œ˜Z[œÈ[Û›È]Hİ[\ÛˆHÜÜÚ[™ÈYÙK‚‹HY]šXÜÈÙXİ[Ûˆ]Ø\™›İÛH™X]\™\È\İ[˜İÛÛ[[ˆ]š\Ú[ÛœÈÚ]HX[ÜˆŞX[ˆ[Y\˜[[\\Ú^™Y]‚‚ˆÈÈÈ›Ü›H[œ]È	ˆÙX\˜Úš[\œÂ‹H˜XÚÙÜ›İ[™™Ø˜JMKŒË‹ÍJX›Ü™\ˆ\ÛÛY™Ø˜JMMŒËNŒMJX‚‹H^ÑQØXÙZÛ\ˆÍÍ˜‚‹HXİ]™H›Øİ\Èİ]H[]˜]\È›Ü™\ˆÈÍŒÍ‘ŒX[™[›ÙXÙ\ÈHœİ]\ˆİ][™Hš[™È™Ø˜JNKL‹KŒŠX‚‚ˆÈÈÈ[\˜Xİ]™H™\İ[YH[Y[[™B‹HH™\XØ[ÛÛ[[İ\È[™H[ˆ™Ø˜JMMŒËNŒMJX[˜ÚÜ™YÚ]›ÙHX\šÙ\œË‚‹HXİ]™HÜˆİ\œ™[›Û\È\Ü^HHÛİÚ[™ÈX[Ú[™YÛÈ›ÙH
+ÌMM˜
+KÚ[H\İ›Û\È\ÙHHÛÛYÛ]H›ÙH
+ÌÌÍMMX
+K‚‹H›Ù\È[\˜XİÛˆİ™\‹^[™[™ÈZ\ˆX[Y]\ˆœ›ÛHÈLœ[™YÚYÚ[™ÈHÛÜœ™\ÜÛ™[™È^\šY[˜ÙHØ\™
