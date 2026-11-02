@@ -5,7 +5,7 @@
 export const RESUME = {
   name: 'SIDDHI MEHENDALE',
   location: 'Bengaluru, India 560066',
-  phone: '+91 7725977636',
+  phone: '+91 ****',
   email: 'siddhimehendale@gmail.com',
   pdfUrl: '/assets/aistudio/Siddhi_Mehendale_-_Resume_17766d60.pdf',
 
